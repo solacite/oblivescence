@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://vdydalws0da6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xdx16"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="Main" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(31.1662, 18.7304)
+theme_override_styles/panel = SubResource("StyleBoxFlat_xdx16")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 506.0
+offset_top = 111.0
+offset_right = 684.0
+offset_bottom = 520.0
+theme_override_font_sizes/font_size = 300
+text = ":)"
